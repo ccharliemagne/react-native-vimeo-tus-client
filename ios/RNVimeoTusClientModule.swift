@@ -1,14 +1,14 @@
 //
-//  RNModuleTemplateModule.swift
-//  RNModuleTemplateModule
+//  RNVimeoTusClientModule.swift
+//  RNVimeoTusClientModule
 //
-//  Copyright © 2022 Alex Demchenko. All rights reserved.
+//  Copyright © 2022 Charliemagne Claros. All rights reserved.
 //
 
 import Foundation
 
-@objc(RNModuleTemplateModule)
-class RNModuleTemplateModule: NSObject {
+@objc(RNVimeoTusClientModule)
+class RNVimeoTusClientModule: NSObject {
   @objc
   func constantsToExport() -> [AnyHashable : Any]! {
     return ["count": 1]
